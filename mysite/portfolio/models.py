@@ -10,7 +10,7 @@ class About(models.Model):
     email = models.TextField()
     city = models.TextField()
     freelance  = models.TextField()
-    about_Img = models.ImageField(upload_to='images/')
+    about_Img = models.ImageField(upload_to='images/Img.jpg')
 
    
 class Skills(models.Model):
